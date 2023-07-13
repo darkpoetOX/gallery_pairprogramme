@@ -10,5 +10,19 @@ public class Artwork {
         this.price = inputPrice;
 
     }
+
+    public String getTitle(){
+        return this.title;
+    }
+    public String getArtist(){
+        return this.artist;
+    }
+    public double getPrice(){
+        return this.price;
+    }
+
+    public void setPrice(double updatedPrice){
+        this.price = updatedPrice;
+    }
 }
 
